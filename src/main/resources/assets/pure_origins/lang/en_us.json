@@ -1,0 +1,21 @@
+{
+  "effect.pure_origins.pure_status_effect": "Purity",
+  "block.pure_origins.pure_fruit": "Fruit of Purity",
+  "block.pure_origins.pure_campfire": "Pure Campfire",
+  "item.pure_origins.hollow_crystal": "Hollow Crystal",
+  "block.pure_origins.pure_stone": "Pure Stone",
+  "block.pure_origins.obelisk": "Obelisk Stone",
+  "item.pure_origins.void_crystal": "Void Crystal",
+
+  "pure_origins:missing_power_msg": "The obelisk lacks lunar power.",
+
+  "item.pure_origins.arachnid_crystal": "Crystal of Arachnid",
+  "item.pure_origins.avian_crystal": "Crystal of Avian",
+  "item.pure_origins.blazeborn_crystal": "Crystal of Blazeborn",
+  "item.pure_origins.elytrian_crystal": "Crystal of Elytrian",
+  "item.pure_origins.enderian_crystal": "Crystal of Enderian",
+  "item.pure_origins.feline_crystal": "Crystal of Feline",
+  "item.pure_origins.merling_crystal": "Crystal of Merling",
+  "item.pure_origins.phantom_crystal": "Crystal of Phantom",
+  "item.pure_origins.shulk_crystal": "Crystal of Shulk"
+}

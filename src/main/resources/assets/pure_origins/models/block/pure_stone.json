@@ -1,0 +1,8 @@
+{
+  "parent": "pure_origins:block/log_template",
+  "textures": {
+    "particle": "pure_origins:block/pure_stone_side",
+    "all": "pure_origins:block/pure_stone_side",
+    "ends": "pure_origins:block/pure_stone_top"
+  }
+}

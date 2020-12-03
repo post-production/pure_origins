@@ -1,0 +1,46 @@
+Things needed:
+- Lunar Stone
+    - Made from moon petrified wood
+    - Plant a seed from the pure fruit on a block of quartz and grow it at night
+    - Causes the base quartz to convert to gravel
+    - Spawns a tree whose bark is made from Lunar Stone
+    - Ignore the above: Use a custom campfire that is a pure fire
+        - Recipe: (S -> Stick, P -> Pure Fruit, W -> Wood log
+             S
+            SPS
+            WWW
+- Obelisk
+    - You can make it from lunar stone
+        - Recipe Ideas (Where B is for bowl and L is for Lunar Stone)
+            LLL       B
+            B B  OR  BLB
+            LLL       B
+    - Can hold up to 4 pure stones, one on each horizontal side
+    - Glows in the presence of the moon, and needs to be exposed to the sky to work
+    - Requires the user to be PURE in order to use. Otherwise, lightning does damage
+    - At night, can fully switch your origin
+    - During the day, can only remove you of your essence (requires a hollow stone to embue)
+    - Maybe have max height? You have to select the right one for now...
+- Pure Stone
+    - One for each origin
+    - Only found in relevant ruins
+    - Infinite uses?
+- Fruit of purity
+    - Grows around ruins
+    - Can only grow at night
+    - When eaten, restores some health and gives the user the PURE status effect
+        - Removes all negative buffs when first applied (or when eaten)
+        - Allows the user to use the obelisk
+- Ruins
+    - Spawn in locations that make sense for that origin
+        - Enderian => The end near the dragon
+        - Merling => Underwater, possibly near an ocean monument
+        - Phantom => Nether, hanging like a stalactite
+        - Elytrian => End city
+        - Blazeborn => Nether, over a pool of lava
+        - Avian => Found on mountains, over a y of 86 (from origins:fresh_air power)
+        - Arachnid => Found in mine shafts
+        - Shulk => End city
+        - Feline => Jungle
+    - Have decorations of "pure" versions of the origin outside
+    - Has a chance to contain either a pure crystal (40%) or a hollow crystal (60%)

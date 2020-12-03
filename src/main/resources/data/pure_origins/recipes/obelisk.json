@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " B ",
+    "BPB",
+    " B "
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:bowl"
+    },
+    "P": {
+      "item": "pure_origins:pure_stone"
+    }
+  },
+  "result": {
+    "item": "pure_origins:obelisk",
+    "count": 1
+  }
+}

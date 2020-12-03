@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "age=0": { "model": "pure_origins:block/pure_berry_bush_stage_0" },
+    "age=1": { "model": "pure_origins:block/pure_berry_bush_stage_1" },
+    "age=2": { "model": "pure_origins:block/pure_berry_bush_stage_2" },
+    "age=3": { "model": "pure_origins:block/pure_berry_bush_stage_3" }
+  }
+}

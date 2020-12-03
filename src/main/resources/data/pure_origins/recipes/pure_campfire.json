@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " S ",
+    "SPS",
+    "WWW"
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:stick"
+    },
+    "P": {
+      "item": "pure_origins:pure_fruit"
+    },
+    "W": {
+      "tag": "minecraft:logs_that_burn"
+    }
+  },
+  "result": {
+    "item": "pure_origins:pure_campfire",
+    "count": 1
+  }
+}

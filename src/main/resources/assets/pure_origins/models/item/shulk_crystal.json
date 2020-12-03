@@ -1,0 +1,7 @@
+{
+	"parent": "item/handheld",
+	"textures": {
+	  "layer0": "pure_origins:item/hollow_crystal",
+	  "layer1": "minecraft:item/shulker_shell"
+	}
+}

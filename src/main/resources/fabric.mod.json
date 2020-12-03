@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "pure_origins",
+  "version": "${version}",
+
+  "name": "Pure Origins",
+  "description": "Adds switchable origins, now with lore!",
+  "authors": [
+    "Me!"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/pure-origins/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "io.github.post_production.pure_origins.PureOriginsMod"
+    ],
+    "client": [
+      "io.github.post_production.pure_origins.PureOriginsClientMod"
+    ]
+  },
+  "mixins": [
+  ],
+  "depends": {
+    "fabricloader": ">=0.8.7",
+    "fabric": "*",
+    "fabric-language-kotlin": "*",
+    "minecraft": "1.16.x",
+    "origins": "0.4.x"
+  },
+  "suggests": {
+    "flamingo": "*"
+  }
+}

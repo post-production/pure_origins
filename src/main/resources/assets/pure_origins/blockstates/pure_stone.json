@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "facing=north": { "model": "pure_origins:block/pure_stone", "x": 90 },
+    "facing=east":  { "model": "pure_origins:block/pure_stone", "x": 90, "y":  90 },
+    "facing=south": { "model": "pure_origins:block/pure_stone", "x": 90, "y": 180 },
+    "facing=west":  { "model": "pure_origins:block/pure_stone", "x": 90, "y": 270 },
+    "facing=up":    { "model": "pure_origins:block/pure_stone" },
+    "facing=down":  { "model": "pure_origins:block/pure_stone" }
+  }
+}

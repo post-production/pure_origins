@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    { "item": "pure_origins:hollow_crystal" },
+    { "item": "minecraft:ender_eye" }
+  ],
+  "result": {
+    "item": "pure_origins:void_crystal",
+    "count": 1
+  }
+}

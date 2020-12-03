@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PPP",
+    "PDP",
+    "PPP"
+  ],
+  "key": {
+    "D": {
+      "item": "minecraft:diamond"
+    },
+    "P": {
+      "item": "pure_origins:pure_fruit"
+    }
+  },
+  "result": {
+    "item": "pure_origins:hollow_crystal",
+    "count": 1
+  }
+}

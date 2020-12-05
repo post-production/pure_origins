@@ -9,12 +9,13 @@
     "Me!"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/pure-origins",
+    "sources": "https://github.com/post-production/pure_origins",
+    "issues": "https://github.com/post-production/pure_origins/issues"
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/pure-origins/icon.png",
+  "icon": "assets/pure_origins/icon.png",
 
   "environment": "*",
   "entrypoints": {

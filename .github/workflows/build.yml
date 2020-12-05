@@ -22,6 +22,9 @@ jobs:
       run: chmod +x gradlew
     - name: Build with Gradle
       run: ./gradlew build remapJar
+    - name: Fix artifact names
+      run: |
+        echo "file_version=`echo ${{ github.ref }} | grep -Eo "[^v]+`" >> $GITHUB_ENV
     - name: Create Release
       id: create_release
       uses: actions/create-release@v1
@@ -39,6 +42,6 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
         upload_url: ${{ steps.create_release.outputs.upload_url }} # This pulls from the CREATE RELEASE step above, referencing it's ID to get its outputs object, which include a `upload_url`. See this blog post for more info: https://jasonet.co/posts/new-features-of-github-actions/#passing-data-to-future-steps
-        asset_path: ./build/libs/pure_origins-`echo ${{ github.ref }} | grep -Eo "[^v]+"`.jar
-        asset_name: pure_origins-${{ github.ref }}.jar
+        asset_path: ./build/libs/pure_origins-$file_version.jar
+        asset_name: pure_origins-$file_version.jar
         asset_content_type: application/jar

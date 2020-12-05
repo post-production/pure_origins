@@ -43,10 +43,10 @@ I highly recommend using REI until better in-game docs are added.
     - [X] Crafted by placing any burnable log into a Pure Campfire
     - [X] Glows at night
     - [X] Can be interspersed among Obelisk blocks
-- [ ] Pure Campfire
+- [X] Pure Campfire
     - [X] Crafted using the fruit of purity
     - [X] Can change burnable logs into Pure Stone
-    - [ ] Only burns at night
+    - [X] Only burns at night
 
 ## Licenses
 

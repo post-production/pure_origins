@@ -37,7 +37,8 @@ I highly recommend using REI until better in-game docs are added.
 - [ ] Fruit of Purity
     - [X] Grows only at night with a direct view of the sky
     - [X] Gives the player a Purity status effect
-    - [ ] Status effect removes all harmful effects (currently kicks user off of the server momentarily)
+    - [X] Status effect removes all harmful effects
+    - [ ] Spawns at ruins
 - [X] Pure Stone
     - [X] Crafted by placing any burnable log into a Pure Campfire
     - [X] Glows at night

@@ -8,6 +8,7 @@ import net.minecraft.entity.effect.StatusEffect
 import net.minecraft.entity.effect.StatusEffectInstance
 import net.minecraft.entity.effect.StatusEffectType
 import net.minecraft.entity.effect.StatusEffects
+import net.minecraft.server.network.ServerPlayerEntity
 
 // This is in RGB
 const val EFFECT_COLOR = 0xffffff
@@ -21,13 +22,13 @@ class PureStatusEffect: StatusEffect(StatusEffectType.BENEFICIAL, EFFECT_COLOR) 
         //
     }
 
-    // Purity removes all harmful status effects when applied
-    override fun onApplied(entity: LivingEntity?, attributes: AttributeContainer?, amplifier: Int) {
+    // Purity removes all status effects when applied
+    override fun onApplied(entity: LivingEntity, attributes: AttributeContainer?, amplifier: Int) {
         super.onApplied(entity, attributes, amplifier)
 
-        for (status in entity!!.activeStatusEffects.values) {
-            if (status.effectType.type == StatusEffectType.HARMFUL) {
-                entity.removeStatusEffect(status.effectType)
+        for (status in entity.activeStatusEffects.keys) {
+            if (status !is PureStatusEffect) {
+                entity.removeStatusEffect(status)
             }
         }
     }

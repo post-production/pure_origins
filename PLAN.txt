@@ -29,7 +29,7 @@ Things needed:
     - Grows around ruins
     - Can only grow at night
     - When eaten, restores some health and gives the user the PURE status effect
-        - Removes all negative buffs when first applied (or when eaten)
+        - Removes all other buffs when first applied (or when eaten)
         - Allows the user to use the obelisk
 - Ruins
     - Spawn in locations that make sense for that origin

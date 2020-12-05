@@ -9,6 +9,7 @@ import net.minecraft.inventory.Inventories
 import net.minecraft.item.ItemStack
 import net.minecraft.nbt.CompoundTag
 import net.minecraft.particle.ParticleTypes
+import net.minecraft.state.property.Properties
 import net.minecraft.util.Clearable
 import net.minecraft.util.ItemScatterer
 import net.minecraft.util.Tickable
@@ -43,6 +44,15 @@ class PureCampfireEntity: BlockEntity(PureOriginsMod.PURE_CAMPFIRE_ENTITY_TYPE),
                         )
                     }
                 }
+            }
+
+            // Only burn at night
+            // Note: Here we are explicit with the conditionals to make sure that
+            //   we don't set the state every tick
+            if (isLit && !this.world!!.isNight) {
+                this.world!!.setBlockState(this.pos, cachedState.with(Properties.LIT, false))
+            } else if (!isLit && this.world!!.isNight) {
+                this.world!!.setBlockState(this.pos, cachedState.with(Properties.LIT, true))
             }
         }
     }
